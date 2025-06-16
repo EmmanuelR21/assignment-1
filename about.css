@@ -15,8 +15,10 @@ footer {
     font-size: 1.1em;
     box-shadow: 0 4px 10px black;
 }
-.splash-text {
+.splash-heading {
     text-align: center;
+    font-style: italic;
+    text-decoration: underline;
 }
 main {
     display: flex;
@@ -24,15 +26,30 @@ main {
     flex-wrap: wrap;
 }
 .card {
-    padding: 10px;
+    padding: 25px 5px;
     width: 250px;
     height: 450px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+    background-color: lightgrey;
 }
-img {
+.profile-img {
     border-radius: 10px;
-    width: 150px;
+    width: 200px;
+}
+.splash-text {
+    font-size: 18px;
+    margin: 30px;
+}
+.splash-img {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+.team-splash-text {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
 }
